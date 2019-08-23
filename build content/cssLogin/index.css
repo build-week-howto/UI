@@ -209,51 +209,57 @@ footer {
     font-size: 3.5rem;
   }
 }
-.signUpForm {
+p {
+  align-self: center;
+  margin: 8rem 0 0 0;
+  font-size: 2.7rem;
+  color: #035E7B;
+}
+.loginForm {
   display: flex;
   flex-flow: column;
   align-self: center;
-  margin: 10rem 0 0 0;
   width: 95%;
+  margin: 3rem 0 0 0;
   color: #035E7B;
   font-size: 100%;
 }
 @media (min-width: 800px) {
-  .signUpForm {
+  .loginForm {
     width: 60%;
   }
 }
-.signUpForm h2 {
+.loginForm h2 {
   color: #035E7B;
   font-size: 2.5rem;
 }
-.signUpForm hr {
+.loginForm hr {
   border: 1px solid #E39774;
   width: 100%;
 }
-.signUpForm .inputLabels {
-  margin: 2rem 0 0 0;
+.loginForm .inputLabels {
+  margin: 3rem 0 0 0;
   font-size: 2rem;
 }
-.signUpForm .inputFields {
+.loginForm .inputFields {
   padding: 15px 0 5px 3px;
 }
-.signUpForm .memberMe {
+.loginForm .memberMe {
   margin: 15px 0px 0 0;
   font-size: 1.5rem;
 }
-.signUpForm .memberMe input {
+.loginForm .memberMe input {
   margin: 10px 0 5px;
 }
-.signUpForm .buttons {
+.loginForm .buttons {
   display: flex;
   flex-flow: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-content: center;
   margin: 20px 0 14px 0px;
 }
 @media (min-width: 800px) {
-  .signUpForm .buttons {
+  .loginForm .buttons {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -261,7 +267,7 @@ footer {
     margin: 20px 0px 15px 0px;
   }
 }
-.signUpForm .buttons button {
+.loginForm .buttons button {
   background-color: #5C9EAD;
   color: #eeeeee;
   width: 45%;
@@ -270,12 +276,12 @@ footer {
   margin: 10px 0 10px 0;
   padding: 0px 10px;
 }
-.signUpForm .buttons button:hover {
+.loginForm .buttons button:hover {
   cursor: pointer;
   color: #b3ebfd;
   background-color: #a0c6cf;
 }
-.alreadyMember {
+.newMember {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -286,18 +292,19 @@ footer {
   width: 95%;
   border-radius: 7px;
   padding: 0 0 10px 0;
+  margin: 1.9rem 0 0 0;
 }
 @media (min-width: 800px) {
-  .alreadyMember {
+  .newMember {
     width: 60%;
   }
 }
-.alreadyMember b {
+.newMember b {
   text-align: center;
   font-size: 2rem;
   padding: 10px 0 10px 0;
 }
-.alreadyMember button {
+.newMember button {
   align-self: center;
   font-size: 1.5rem;
   padding: 0 20px 0 20px;
@@ -305,7 +312,7 @@ footer {
   background-color: #E39774;
   color: #eeeeee;
 }
-.alreadyMember button:hover {
+.newMember button:hover {
   cursor: pointer;
   color: #ffffff;
   background-color: #f4d7c9;
